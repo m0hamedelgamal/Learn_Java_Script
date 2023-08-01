@@ -1,0 +1,23 @@
+
+
+let the_Title="Elzero"; 
+let the_Desc="Elzero web school "; 
+
+var currentDate = new Date();
+let the_date = currentDate.getDay()+"/"
+                +currentDate.getMonth(); 
+
+console.log(`${the_Title}
+${the_Desc}
+${the_date}`);
+
+
+
+let x=
+`<div>
+<h3>${the_Title}</h3>
+<p>${the_Desc}</p>
+<span>${the_date}</span>
+</div>`
+
+document.write(x.repeat(4)); 

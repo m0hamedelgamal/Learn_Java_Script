@@ -30,16 +30,15 @@ console.log(typeof zz);
 // console.log(myarray);
 // console.log(myarray.length);
 
-// myarray.shift();
+myarray.shift();
 // console.log(myarray);
 // console.log(myarray.length);
 
-let aaa = ["01","No","t","Aa"];
+let aaa = ["01", "No", "t", "Aa"];
 let aa = ["01", "Nao", "at", "aAa"];
 
-
-let c = aaa.concat(aa)
-console.log(c)
-console.log(typeof(c));
+let c = aaa.concat(aa);
+console.log(c);
+console.log(typeof c);
 
 console.log(c.sort());

@@ -21,7 +21,6 @@ let zz = myarray.pop();
 console.log(myarray);
 console.log(zz);
 console.log(typeof zz);
-
 myarray.shift();
 // console.log(myarray);
 // console.log(myarray.length);

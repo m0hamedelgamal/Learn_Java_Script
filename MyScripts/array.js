@@ -22,14 +22,6 @@ console.log(myarray);
 console.log(zz);
 console.log(typeof zz);
 
-// myarray.unshift("test01");
-// console.log(myarray);
-// console.log(myarray.length);
-
-// myarray.pop();
-// console.log(myarray);
-// console.log(myarray.length);
-
 myarray.shift();
 // console.log(myarray);
 // console.log(myarray.length);

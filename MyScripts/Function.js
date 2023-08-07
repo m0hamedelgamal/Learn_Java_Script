@@ -19,9 +19,6 @@ console.log(sum(1, 2, 3));
 // expected output: 6
 
 console.log(sum(1, 2, 3, 4));
-// expected output: 10
-
-// Using the same foreach
 
 function sum(...theArgs) {
   let total = 0;
@@ -32,7 +29,4 @@ function sum(...theArgs) {
 }
 
 console.log(sum(1, 2, 3));
-// expected output: 6
-
 console.log(sum(1, 2, 3, 4));
-// expected output: 10
